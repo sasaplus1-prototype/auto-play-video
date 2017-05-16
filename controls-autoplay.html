@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>auto play video</title>
+  </head>
+  <body>
+    <video id="js-video" width="360" height="240" poster="poster.jpg" controls autoplay>
+      <source type="video/mp4" src="SampleVideo_360x240_1mb.mp4">
+    </video>
+
+    <input type="button" value="play" onclick="document.getElementById('js-video').play()">
+    <input type="button" value="pause" onclick="document.getElementById('js-video').pause()">
+
+    <p>attributes: controls, autoplay</p>
+
+    <address>
+      Sample Videos Copyright(c) Sample Video Developers | <a href="http://www.sample-videos.com/">http://www.sample-videos.com/</a>
+    </address>
+  </body>
+</html>
